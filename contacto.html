@@ -3,46 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Este es el formulario de contacto potaxie</h1>
-    </header>
+        <div id="titulo-borde2">
+            <h1 class="title">Este es el formulario de contacto potaxie</h1>
+        </div>           
+   </header>
 
     <main>
-        <div>
-            <h2>Este es un formulario para que puedas contactarnos</h2>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ea ipsam obcaecati. Esse, dolores. Magnam sunt aperiam blanditiis 
-            minima quisquam tempora, harum nesciunt enim. 
-            Doloribus natus dicta fugiat officia laborum.</p>
-        </div>
-
-        <form>
-
+        <article>
             <div>
-                <input type="text" name="Nombre" placeholder="Nombre" />
-            </div>
-            
-            <div>
-                <label for="Apellido">Apellido: </label>
-                <input type="text" name="Apellido" />
-            </div>
+                <h2 class="title">Este es un formulario para que puedas contactarnos</h2>
+    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ea ipsam obcaecati. Esse, dolores. Magnam sunt aperiam blanditiis 
+                minima quisquam tempora, harum nesciunt enim. 
+                Doloribus natus dicta fugiat officia laborum.</p>
 
-            <div>
-                <label for="edad">Edad: </label>
-                <input type="number" name="edad" />
+                <div class="papucontainer">
+                    <h2 class="papu">hola papu</h2>
+                </div>
             </div>
+       
+            <form>
 
-            <div>
-                <label for="contraseña">Contraseña: </label>
-                <input type="password" name="contraseña" />
+                <div>
+                    <input type="text" name="Nombre" placeholder="Nombre" />
+                </div>
+                
+                <div>
+                    <label for="Apellido">Apellido: </label>
+                    <input type="text" name="Apellido" />
+                </div>
+
+                <div>
+                    <label for="edad">Edad: </label>
+                    <input type="number" name="edad" />
+                </div>
+
+                <div>
+                    <label for="contraseña">Contraseña: </label>
+                    <input type="password" name="contraseña" />
+                </div>
+
+                <button>ENVIAR</button>
+                
+            </form>
+        </article>
+
+        <article>
+            <div id="cards-container">
+                <div class="cards">
+                    <h4 class="title">HTML</h4>
+                    <img src="logo_html.png" class="pictures2">
+                </div>
+                
+                <div class="cards">
+                    <h4 class="title">CSS</h4>
+                    <img src="logo_css.png" class="pictures2">
+                </div>
+                
+                <div class="cards">
+                    <h4 class="title">JAVASCRIPT</h4>
+                    <img src="logo_javas.png" class="pictures2">
+                </div>
             </div>
-
-            <button>ENVIAR</button>
-            
-        </form>
+        </article>
     </main>
+
 </body>
 </html>
